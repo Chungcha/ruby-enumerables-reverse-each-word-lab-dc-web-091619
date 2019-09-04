@@ -23,6 +23,7 @@ def reverse_each_word(string)
   string.split(" ").each{|n| new_array<<n.reverse}
   new_array.join(" ")
 end
+
 =begin
 #.collect
 def reverse_each_word(string)
@@ -32,7 +33,7 @@ end
 
 
 
-
+=end
 
 
 
